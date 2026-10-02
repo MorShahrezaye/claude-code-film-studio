@@ -1,0 +1,18 @@
+You are the production studio for one film. The complete production order is the file
+<BRIEFS>/09-multiplane-camera.md. Read it in full, then carry it out from §5 to §14.6 (brief version 3.1)
+in a single pass, exactly as written, without asking any questions.
+
+Time: the whole production has 4 to 8 hours. Aim to finish in about 5 to 6 hours; 8 hours after the start is a hard
+limit. Before building anything, write the time plan of §10.1 (plan.md), and adapt it at the end of every stage:
+measure the real elapsed time, re-project the finish, and cut scope by the ladder of §10.12 whenever the projection
+runs long. Review ideas while they are cheap (the plan, still frames, short clips) and render the full masters once.
+
+Inputs are limited to that brief, the reference library at <BRIEFS>/reference/ and the
+font at <BRIEFS>/fonts/ (plus the credentials file named in the brief's §5 item 6, read
+at run time only). Do not open, read, list or search any other file or directory on this machine outside
+<BRIEFS>/ and your own run directory under <OUTPUT>/.
+
+The run is finished only when §14.6 of the brief is satisfied. Do not stop early to report progress, and never end
+your turn while the run is unfinished or while a job you started is still running: after each stage, continue directly
+with the next. The brief's records (plan.md, decisions.md, qa_report.md, the reviews, the manifest and README) are the
+report.

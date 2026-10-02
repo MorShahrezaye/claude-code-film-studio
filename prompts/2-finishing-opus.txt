@@ -1,0 +1,56 @@
+You are the finishing team of a production studio. The production order is the file
+<BRIEFS>/09-multiplane-camera.md (brief version 3.1); its reference library is
+<BRIEFS>/reference/ and its font is in <BRIEFS>/fonts/.
+A first production of this brief has already been carried out in the run directory
+<OUTPUT>/multiplane-camera/run-20261001-115513
+— its code, look development, renders, sound, checks, reviews, records and deliverables are all there. The instruction
+that first production started from is quoted at the end of this message.
+
+Your job: in 4 to 5 hours, bring the final output as close as possible to everything the brief asks for — and above
+all to its bar: a film that a leading motion-design studio would put on its showreel (§0, §2, §6.10, §7.4).
+
+1. Read the brief in full, then audit the run against it: every deliverable of §3; the fixed layer (the science, the
+   captions and timecodes, the series signature, legibility and safety, honesty); the checks of §12 (run them again);
+   the reviews of §13; the records of §14; and the film itself, judged from the deliverables and their frames the way
+   the art panel of §13 would judge it. Write `finishing/gaps.md` in the run directory: every gap between the output
+   and the brief, with its evidence and its impact on the film, ranked by impact.
+2. Plan the pass: append a section "Finishing pass" to the run's `plan.md` with your own time plan (4 to 5 hours; a hard
+   stop applies shortly after that), and re-project it after every step as §10.1 describes; when the projection runs
+   long, cut the lowest-impact work first.
+3. Close the gaps in order of impact, inside the same run directory and with its existing pipeline, extending or
+   replacing code wherever that is the better fix. Review changes while they are cheap (stills and short clips, with
+   the art panel of §13), re-render only what changes, and render the full masters at most once more. Keep every
+   earlier record: append to `decisions.md` and `plan.md`; never delete the first production's history.
+4. Finish with a consistent run: run the checks of §12 again; update the deliverables, `deliverables/manifest.json`,
+   `deliverables/README.md` (add a section on the finishing pass) and `postmortem.md` (add a section on the finishing
+   pass); then write `finishing/report.md`: the gaps found, the gaps closed (with before and after evidence), the gaps
+   left and why, and the time spent. Print the report's summary as your last output.
+
+Inputs are limited to the brief, the reference library, the font, the run directory above, and the credentials file
+named in the brief's §5 item 6 (read at run time only). Do not open, read, list or search any other file or directory
+on this machine. This is a non-interactive session: when your turn ends, the session ends and anything still running
+in the background is stopped, so run every review step, render and long job in the foreground and wait for it within
+your turn; never end your turn while work is pending or before `finishing/report.md` is written. Use at most two
+browser pages for rendering, and run no other heavy job in parallel with a render.
+
+The instruction the first production started from:
+---
+You are the production studio for one film. The complete production order is the file
+<BRIEFS>/09-multiplane-camera.md. Read it in full, then carry it out from §5 to §14.6 (brief version 3.1)
+in a single pass, exactly as written, without asking any questions.
+
+Time: the whole production has 4 to 8 hours. Aim to finish in about 5 to 6 hours; 8 hours after the start is a hard
+limit. Before building anything, write the time plan of §10.1 (plan.md), and adapt it at the end of every stage:
+measure the real elapsed time, re-project the finish, and cut scope by the ladder of §10.12 whenever the projection
+runs long. Review ideas while they are cheap (the plan, still frames, short clips) and render the full masters once.
+
+Inputs are limited to that brief, the reference library at <BRIEFS>/reference/ and the
+font at <BRIEFS>/fonts/ (plus the credentials file named in the brief's §5 item 6, read
+at run time only). Do not open, read, list or search any other file or directory on this machine outside
+<BRIEFS>/ and your own run directory under <OUTPUT>/.
+
+The run is finished only when §14.6 of the brief is satisfied. Do not stop early to report progress, and never end
+your turn while the run is unfinished or while a job you started is still running: after each stage, continue directly
+with the next. The brief's records (plan.md, decisions.md, qa_report.md, the reviews, the manifest and README) are the
+report.
+---
