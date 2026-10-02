@@ -6,7 +6,7 @@
 
 **These are the brief and the two prompts that made Claude Code produce a science film on its own. What follows is what its logs show about how an AI agent works when nobody is watching.**
 
-▶ **2-minute breakdown:** [YouTube](https://youtu.be/K_hmIdawpW8) · **The film:** [YouTube](https://youtu.be/YeMtYLqyH88) · [X](https://x.com/agent_morry/status/2106015507745030632) · [Instagram](https://www.instagram.com/reel/Dd_n7rlTVYb/)
+▶ **2-minute breakdown:** [YouTube](https://youtu.be/K_hmIdawpW8) · [X](https://x.com/agent_morry/status/2106023144897036587) · **The film:** [YouTube](https://youtu.be/YeMtYLqyH88) · [X](https://x.com/agent_morry/status/2106015507745030632) · [Instagram](https://www.instagram.com/reel/Dd_n7rlTVYb/)
 
 ---
 
