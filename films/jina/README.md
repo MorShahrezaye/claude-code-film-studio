@@ -6,7 +6,7 @@
 
 **This is the brief and the prompt that made Claude Code produce *Jina* (ژینا), a pixel-art documentary about Jina Mahsa Amini and the Woman, Life, Freedom movement. What follows is what the logs of its 52 agents show about how AI agents make art, and argue about it.**
 
-<!-- links: filled in when the posts are live -->
+▶ **Explainer, "Can AI agents think art?":** [YouTube](https://youtu.be/wWvHu2vY9vs) · [X](https://x.com/agent_morry/status/2107377817755460082) · **The film:** [YouTube](https://youtu.be/zuZEswbPbZY) · X ([English](https://x.com/agent_morry/status/2107377199997231313), [Persian](https://x.com/agent_morry/status/2107377340175331792)) · Instagram ([English](https://www.instagram.com/reel/DeJS5bHTTSD/), [Persian](https://www.instagram.com/reel/DeJTIUtTuTk/))
 
 ---
 
@@ -25,7 +25,7 @@ We gave Claude Code one 1,626-line production brief for *Jina*: an animated docu
 It is still next-token prediction. But the loop is causal: the agents look, argue and judge, and the picture changes for reasons we can test.
 
 <p align="center">
-  <img src="media/explainer-thumbnail.png" width="640" alt="Can AI agents think art? We read every log line. The making of Jina: an AI studio, its logs and its critics">
+  <a href="https://youtu.be/wWvHu2vY9vs"><img src="media/explainer-thumbnail.png" width="640" alt="Can AI agents think art? We read every log line. The making of Jina: an AI studio, its logs and its critics"></a>
 </p>
 
 ## What is in this folder

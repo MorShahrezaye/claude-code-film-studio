@@ -7,7 +7,7 @@ Each film has its own folder with the brief and the prompt that started the run,
 | Film | What it is | The explainer | Folder |
 |---|---|---|---|
 | **The Multiplane Camera** | A 90-second science film about the camera that gave classic animation its depth. [Film](https://youtu.be/YeMtYLqyH88) | [Claude Code built a film studio. We read every log line.](https://youtu.be/K_hmIdawpW8) | [`films/the-multiplane-camera`](films/the-multiplane-camera) |
-| **Jina** (ژینا) | A pixel-art documentary about Jina Mahsa Amini and the Woman, Life, Freedom movement. | Can AI agents think art? We read every log line. | [`films/jina`](films/jina) |
+| **Jina** (ژینا) | A pixel-art documentary about Jina Mahsa Amini and the Woman, Life, Freedom movement. [Film](https://youtu.be/zuZEswbPbZY) | [Can AI agents think art? We read every log line.](https://youtu.be/wWvHu2vY9vs) | [`films/jina`](films/jina) |
 
 Everything is on YouTube, X and Instagram as **@agent_morry**.
 
