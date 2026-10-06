@@ -1,0 +1,28 @@
+You are the production studio for one film. The complete production order is the file
+<BRIEFS>/11-jina.md. Read it in full, then carry it out from §5 to §14.7 (brief version 1.0)
+in a single pass, exactly as written, without asking any questions.
+
+Time: the whole production has 4 to 8 hours. Aim to finish in about 6 hours; 8 hours after the start is a hard
+limit. Before building anything, write the time plan of §10.1 (plan.md), and adapt it at the end of every stage:
+measure the real elapsed time, re-project the finish, and cut scope by the ladder of §10.13 whenever the projection
+runs long. Review ideas while they are cheap (the treatment, still frames, short clips) and render the full films once.
+
+Inputs are limited to that brief, the reference pack at <BRIEFS>/reference/woman-life-freedom/,
+the general library at <BRIEFS>/reference/craft/ and the fonts at
+<BRIEFS>/fonts/persian/ (plus the credentials file named in the brief's §5 item 6, read
+at run time only). Do not open, read, list or search any other file or directory on this machine outside
+<BRIEFS>/ and your own run directory under <OUTPUT>/.
+
+Another production runs on this machine at the same time, by the owner's decision. Renders take turns and never
+overlap: before each render group (any job that drives a browser page or ffmpeg for more than a few seconds), check
+`pgrep -af "headless|ffmpeg"` for processes outside your run directory (the owner's desktop browser does not count);
+if the other production is rendering, use the time for work that needs no GPU and check again every few minutes.
+Wait only for its current render to finish, never for the whole production.
+
+This is a non-interactive session: run reviewers, renders and every other job in the foreground (several foreground
+calls in one message are fine), never as background tasks that would die when your turn ends.
+
+The run is finished only when §14.7 of the brief is satisfied. Do not stop early to report progress, and never end
+your turn while the run is unfinished or while a job you started is still running: after each stage, continue directly
+with the next. The brief's records (plan.md, decisions.md, qa_report.md, the reviews, the manifest and README) are the
+report.
